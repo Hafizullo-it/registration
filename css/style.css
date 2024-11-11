@@ -1,0 +1,154 @@
+body{
+    background-image: url("../img/Fon\ 2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.products {
+    background-position: top center;
+    background-size: 1400px;
+    padding-bottom: 180px;
+}
+
+
+.products-item {
+    display: grid;
+    grid-template-columns: repeat(1, 400px);
+    gap: 24px;
+    margin-top: 60px;
+}
+
+
+.fons {
+    margin-top: 7%;
+    margin-left: 35%;
+    margin-right: 35%;
+    box-shadow: 0 0 10px rgba(0, 0, 0 ,0.6);
+    background-color: rgb(207, 198, 198);
+}
+
+
+.fon1 {
+    margin-top: 7%;
+    margin-left: 35%;
+    margin-right: 35%;
+    box-shadow: 0 0 30px rgba(255, 55, 55, 0.6);
+    background-color: rgb(207, 198, 198);
+}
+
+
+.cart1 {
+    
+    padding: 10px;
+    border: 2px solid rgba(255, 30, 30, 0.842);
+    background-color: rgba(255, 255, 255, 0.836);
+    height: auto;
+    
+}
+
+
+.carts {
+    
+    padding: 10px;
+    border: 2px solid rgba(240, 233, 233, 0.842);
+    background-color: rgba(255, 255, 255, 0.836);
+    height: auto;
+    
+}
+
+
+.input-red {
+    border: rgb(221, 15, 15);
+    border: 0;
+    border-bottom: 2px solid darkgray;
+    color: #000000;
+    background-color:  #ffffff00;
+
+}
+
+
+input {
+    /*margin-left: 45px;*/
+    width: 70%;
+    height: 25px;
+    border: 0;
+    border-bottom: 2px solid darkgray;
+    color: #000000;
+    background-color:  #ffffff00;
+
+}
+
+
+input:focus {
+    border: 3px solid #8a8a8a;
+}
+
+
+.custom-btn {
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0 rgba(255, 255, 255, 0), 7px 7px 20px 0 rgba(0, 0, 0, 0), 4px 4px 5px 0 rgba(0, 0, 0, 0);
+    outline: none;
+}
+
+
+.btn-5 {
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: rgb(191, 191, 192);
+    background: linear-gradient(0deg, rgb(41, 224, 35) 0%, rgb(155, 224, 133) 100%);
+}
+
+
+.btn-5:hover {
+    color: #8c1f1f;
+    background: transparent;
+    box-shadow:none;
+}
+
+
+.btn-5:before,
+.btn-5:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #2e6bb6;
+    box-shadow:
+            -1px -1px 5px 0px rgb(245, 2, 2),
+            7px 7px 20px 0px rgb(255, 6, 6),
+            4px 4px 5px 0px rgba(255, 255, 255, 0);
+    transition:400ms ease all;
+}
+
+
+.btn-5:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+.btn-5:hover:before,
+.btn-5:hover:after{
+    width:100%;
+    transition:800ms ease all;
+}
